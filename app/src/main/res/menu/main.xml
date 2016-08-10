@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/mode"
+          android:title="模式切换"
+          android:orderInCategory="80"
+          app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/clear_log"
+        android:title="clearLog"
+        app:showAsAction="never"
+        android:orderInCategory="100"/>
+    <item
+        android:id="@+id/help"
+        android:title="help"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_help"
+        />
+
+</menu>
